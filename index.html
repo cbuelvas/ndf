@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8">
     <title>Nelson Díaz Fotografía</title>
@@ -9,8 +10,12 @@
 
 <!-- Bootstrap files -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" >
 <!-- Bootstrap end -->
@@ -28,61 +33,78 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">Nelson Diaz Photo</a>
+            <a class="navbar-brand" href="index.html">
+                <img src="img/brand.png" alt="Nelson Diaz" >
+            </a>
         </div>
-
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Destacado <span class="sr-only">(current)</span></a></li>
-                <li><a href="ellas.html">Ellas</a></li>
-                <li><a href="ellos.html">Ellos</a></li>
+                <li><a href="modelos.html">Modelos</a></li>
                 <li><a href="bodas.html">Bodas</a></li>
-                <li><a href="eventos.html">Eventos</a></li>
                 <li><a href="videos.html">Videos</a></li>
                 <li><a href="biografia.html">Biografía</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
+            <!-- Redes Sociales -->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a target="_blank" href="https://www.facebook.com/nelson.diazfotografia"> <i class="fa fa-facebook-official fa-2x"></i></a> </li>
+                <li><a target="_blank" href="https://instagram.com/nelsondiaz_fotografia"> <i class="fa fa-instagram fa-2x"></i></a> </li>
+                <li><a target="_blank" href="https://twitter.com/NelsonDiaz_91"> <i class="fa fa-twitter-square fa-2x"></i></a> </li>
+            </ul>
+            <!-- Fin Redes Sociales -->
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
 <!-- Fin Navbar -->
+
 <!-- mosaico del orto-->
-    <div class="isotope center-block">
-        <div class="item width2"></div>
-        <div class="item height2"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item width2 height2"></div>
-        <div class="item width2"></div>
-        <div class="item width2"></div>
-        <div class="item height2"></div>
-        <div class="item"></div>
-        <div class="item width2"></div>
-        <div class="item height2"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-    </div>
+  <div class="container">
+      <section class="grid-wrap">
+          <ul class="grid swipe-rotate" id="grid">
+              <li class="title-box">
+                  <h2>Destacado <a href="http://nelsondiazfotografia.com/">Nelson Diaz</a></h2>
+              </li>
+              <li><a href="img/JessyOrdoñez.jpg" class="thumbnail"><img src="img/JessyOrdoñez.jpg" class="img-responsive" alt="Jessy Ordoñez"><h3>Jessy Ordoñez</h3></a></li>
+              <li><a href="img/boda-20.jpg" class="thumbnail"><img src="img/boda-20.jpg" class="img-responsive" alt="Boda"><h3>Andrew & Milena</h3></a></li>
+              <li><a href="img/SimonOlano.jpg" class="thumbnail"><img src="img/SimonOlano.jpg" class="img-responsive" alt="Simon Olano"><h3>Simon Olano</h3></a></li>
+              <li><a href="img/KarinaRosales2.jpg" class="thumbnail"><img src="img/KarinaRosales2.jpg" class="img-responsive" alt="Karina Rosales"><h3>Karina Rosales</h3></a></li>
+              <li><a href="#" class="thumbnail"><img src="img/05.jpg" class="img-responsive" alt="dummy"><h3>Lass Suicide Girl</h3></a></li>
+              <li><a href="#" class="thumbnail"><img src="img/06.jpg" class="img-responsive" alt="dummy"><h3>Lass Suicide Girl</h3></a></li>
+              <li><a href="#" class="thumbnail"><img src="img/07.jpg" class="img-responsive" alt="dummy"><h3>Lass Suicide Girl</h3></a></li>
+              <li><a href="#" class="thumbnail"><img src="img/08.jpg" class="img-responsive" alt="dummy"><h3>Lass Suicide Girl</h3></a></li>
+              <li><a href="#" class="thumbnail"><img src="img/09.jpg" class="img-responsive" alt="dummy"><h3>Lass Suicide Girl</h3></a></li>
+              <li><a href="#" class="thumbnail"><img src="img/10.jpg" class="img-responsive" alt="dummy"><h3>Lass Suicide Girl</h3></a></li>
+              <li><a href="#" class="thumbnail"><img src="img/11.jpg" class="img-responsive" alt="dummy"><h3>Lass Suicide Girl</h3></a></li>
+              <li><a href="#" class="thumbnail"><img src="img/12.jpg" class="img-responsive" alt="dummy"><h3>Lass Suicide Girl</h3></a></li>
+              <li><a href="#" class="thumbnail"><img src="img/13.jpg" class="img-responsive" alt="dummy"><h3>Lass Suicide Girl</h3></a></li>
+              <li><a href="#" class="thumbnail"><img src="img/14.jpg" class="img-responsive" alt="dummy"><h3>Lass Suicide Girl</h3></a></li>
+          </ul>
+      </section>
+  </div>
 <!-- mosaico del orto fin -->
 
-<footer>
-    <nav class="navbar navbar-default navbar-fixed-bottom">
-        <div class="container">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="https://www.facebook.com/nelson.diazfotografia.3">F</a></li> <!-- redes sociales -->
-                <li><a href="#">I</a></li>
-                <li><a href="#">G</a></li>
-            </ul>
-            <p class="navbar-text navbar-right">Diseñado por: <a href="www.cbuelvas.com/blog" class="navbar-link">cbuelvas.com</a></p>
-        </div>
-    </nav>
+<footer class="footer">
+    <div class="container">
+    <p class="text-muted text-center"> Copyright © 2015 Nelson Díaz | Diseño: <a target="_blank" href="#">CBuelvas</a> </p>
+    </div>
 </footer>
 <!-- java script files -->
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/isotopo.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/npm.js"></script>
-
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/colorfinder-1.1.js"></script>
+    <script src="js/gridScrollFx.js"></script>
+    <script>
+        new GridScrollFx( document.getElementById( 'grid' ), {
+            viewportFactor : 0.4
+        } );
+    </script>
 <!-- java script end -->
 </body>
 </html>

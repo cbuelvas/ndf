@@ -10,13 +10,19 @@
 
     <!-- Bootstrap files -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" >
     <!-- Bootstrap end -->
+
 </head>
 <body>
+<header></header>
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -27,30 +33,54 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">Nelson Diaz Photo</a>
+            <a class="navbar-brand" href="index.html">
+                <img src="img/brand.png" alt="Nelson Diaz" >
+            </a>
         </div>
-
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="index.html">Destacado</a></li>
-                <li class="active"><a href="ellas.html">Ellas <span class="sr-only">(current)</span></a></li>
-                <li><a href="ellos.html">Ellos</a></li>
+                <li class="active"><a href="modelos.html">Modelos <span class="sr-only">(current)</span></a></li>
                 <li><a href="bodas.html">Bodas</a></li>
-                <li><a href="eventos.html">Eventos</a></li>
                 <li><a href="videos.html">Videos</a></li>
                 <li><a href="biografia.html">Biografía</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">F</a></li> <!-- redes sociales -->
-                <li><a href="#">I</a></li>
-                <li><a href="#">G</a></li>
+                <li><a href=""> <i class="fa fa-facebook-official fa-2x"></i></a> </li>
+                <li><a href=""> <i class="fa fa-instagram fa-2x"></i></a> </li>
+                <li><a href=""> <i class="fa fa-twitter-square fa-2x"></i></a> </li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
 <!-- Fin Navbar -->
 
+<!-- Contenido -->
+
+<!-- Fin Contenido-->
+
+<footer class="footer">
+    <div class="container">
+        <p class="text-muted text-center"> Copyright © 2015 Nelson Díaz | Diseño: <a href="#">CBuelvas</a> </p>
+    </div>
+</footer>
+<!-- java script files -->
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/isotopo.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/npm.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/colorfinder-1.1.js"></script>
+<script src="js/gridScrollFx.js"></script>
+<script>
+    new GridScrollFx( document.getElementById( 'grid' ), {
+        viewportFactor : 0.4
+    } );
+</script>
+<!-- java script end -->
 </body>
 </html>
