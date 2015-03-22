@@ -18,6 +18,7 @@
     <script src="js/modernizr.custom.js"></script>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" >
+    <link rel="icon" href="img/miselaneas/brand.png">
     <!-- Bootstrap end -->
 
 </head>
@@ -34,7 +35,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.html">
-                <img src="img/brand.png" alt="Nelson Diaz" >
+                <img src="img/miselaneas/brand.png" alt="Nelson Diaz" >
             </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -46,16 +47,45 @@
                 <li><a href="biografia.html">Biografía</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
+            <!-- Redes Sociales -->
             <ul class="nav navbar-nav navbar-right">
-                <li><a href=""> <i class="fa fa-facebook-official fa-2x"></i></a> </li>
-                <li><a href=""> <i class="fa fa-instagram fa-2x"></i></a> </li>
-                <li><a href=""> <i class="fa fa-twitter-square fa-2x"></i></a> </li>
+                <li><a target="_blank" href="https://www.facebook.com/nelson.diazfotografia"> <i class="fa fa-facebook-official fa-2x"></i></a> </li>
+                <li><a target="_blank" href="https://instagram.com/nelsondiaz_fotografia"> <i class="fa fa-instagram fa-2x"></i></a> </li>
+                <li><a target="_blank" href="https://twitter.com/NelsonDiaz_91"> <i class="fa fa-twitter-square fa-2x"></i></a> </li>
             </ul>
+            <!-- Fin Redes Sociales -->
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
 <!-- Fin Navbar -->
+<!-- Contenido -->
+<div class="container" style="padding-top: 40px;">
+    <!-- Modal -->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Launch demo modal
+    </button>
 
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Fin Contenido-->
 <footer class="footer">
     <div class="container">
         <p class="text-muted text-center"> Copyright © 2015 Nelson Díaz | Diseño: <a href="#">CBuelvas</a> </p>

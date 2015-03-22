@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <title>Nelson Díaz Fotografía</title>
@@ -18,6 +18,7 @@
     <script src="js/modernizr.custom.js"></script>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" >
+    <link rel="icon" href="img/miselaneas/brand.png">
     <!-- Bootstrap end -->
 
 </head>
@@ -34,28 +35,71 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.html">
-                <img src="img/brand.png" alt="Nelson Diaz" >
+                <img src="img/miselaneas/brand.png" alt="Nelson Diaz" >
             </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="modelos.html">Modelos</a></li>
-                <li><a href="bodas.html">Bodas </a></li>
+                <!-- <li><a href="modelos.html">Modelos</a></li> -->
+                <!-- <li><a href="bodas.html">Bodas</a></li> -->
                 <li><a href="videos.html">Videos </a></li>
                 <li><a href="biografia.html">Biografía </a></li>
                 <li class="active"><a href="contacto.html">Contacto <span class="sr-only">(current)</span></a></li>
             </ul>
+            <!-- Redes Sociales -->
             <ul class="nav navbar-nav navbar-right">
-                <li><a href=""> <i class="fa fa-facebook-official fa-2x"></i></a> </li>
-                <li><a href=""> <i class="fa fa-instagram fa-2x"></i></a> </li>
-                <li><a href=""> <i class="fa fa-twitter-square fa-2x"></i></a> </li>
+                <li><a target="_blank" href="https://www.facebook.com/nelson.diazfotografia"> <i class="fa fa-facebook-official fa-2x"></i></a> </li>
+                <li><a target="_blank" href="https://instagram.com/nelsondiaz_fotografia"> <i class="fa fa-instagram fa-2x"></i></a> </li>
+                <li><a target="_blank" href="https://twitter.com/NelsonDiaz_91"> <i class="fa fa-twitter-square fa-2x"></i></a> </li>
             </ul>
+            <!-- Fin Redes Sociales -->
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
 <!-- Fin Navbar -->
-
+<!-- Contenido -->
+<div class="container" style="padding-top: 40px;">
+    <div class="row">
+        <div class="col-md-7">
+            <form class="form-horizontal" method="post" action="contacto.php">
+                <div class="form-group" aria-required="true" aria-invalid="false">
+                    <label for="inputNames3" class="col-sm-2 control-label">Nombres:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="inputNames3" placeholder="Tus nombres">
+                    </div>
+                </div>
+                <div class="form-group" aria-required="true" aria-invalid="false" >
+                    <label for="inputEmail3" class="col-sm-2 control-label">Correo:</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" name="inputEmail3" placeholder="tu@correo">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputSub3" class="col-sm-2 control-label">Asunto:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="inputSub3" placeholder="El asunto">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputMsg3" class="col-sm-2 control-label">Mensaje:</label>
+                    <div class="col-sm-10">
+                        <textarea name="inputMsg3" class="form-control" rows="5" placeholder="Tu mensaje"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <input type="submit" value="ENVIAR" class="cform-submit pull-left">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-3">
+            <img src="img/miselaneas/contacto.jpg" alt="Foto para contacto" class="img-responsive thumbnail">
+        </div>
+    </div>
+</div>
+<!-- Fin Contenido-->
 <footer class="footer">
     <div class="container">
         <p class="text-muted text-center"> Copyright © 2015 Nelson Díaz | Diseño: <a href="#">CBuelvas</a> </p>
